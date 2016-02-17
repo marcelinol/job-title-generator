@@ -1,0 +1,19 @@
+<center>
+  JOB TITLE GENERATOR
+  <br />
+  <%= form_tag({ controller: :generator, action: :generate }, method: :post, class: "navbar-form navbar-left search-form") do %>
+    <%= submit_tag 'Generate!' %>
+  <% end %>
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <font size=15>
+    <%= @job_title || '' %>
+  </font>
+</center>
