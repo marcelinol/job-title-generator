@@ -1,6 +1,6 @@
 class Generator
 
-  WORDS = ['full stack', 'front-end', 'back-end', 'ux', 'developer', 'designer', 'researcher', 'trainee', 'customer', 'engineer', 'software', 'product', 'owner', 'manager', 'agent']
+  WORDS = ["Full Stack", "Front-end", "Back-end", "UX", "Developer", "Designer", "Researcher", "Trainee", "Customer", "Engineer", "Software", "Product", "Owner", "Manager", "Agent"]
 
   def generate
     WORDS.sample(rand(1..4)).join ' '
